@@ -1,0 +1,19 @@
+version: '3.3'
+
+services:
+
+  php-mysqldump:
+    image: ahabid/php-mysqldump:${VERSION}
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    tty: true
+    env_file:
+      - .envs/php-ini.env
+      - .envs/app.env
+    volumes:
+      - ../src:/var/www/html/src
+      - ../vendor:/var/www/html/vendor
+      - ../composer.json:/var/www/html/composer.json
+      - ../composer.lock:/var/www/html/composer.lock
+      - ../storage:/var/www/html/storage

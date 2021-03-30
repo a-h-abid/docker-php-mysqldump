@@ -1,0 +1,6 @@
+.git
+vendor/
+storage/*
+!storage/.gitignore
+LICENSE
+README.md

@@ -1,0 +1,11 @@
+version: '3.3'
+
+networks:
+  common-net:
+    external: true
+
+services:
+
+  php-mysqldump:
+    networks:
+      - common-net
