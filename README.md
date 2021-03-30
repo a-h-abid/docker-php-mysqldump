@@ -10,7 +10,7 @@ First download the image.
 docker pull ahabid/php-mysqldump:1.0.1
 ```
 
-Create an env file (See (environments)[#environments] section).
+Create an env file (See [environments](#environments) section).
 
 Run the image using `docker run`.
 
