@@ -2,8 +2,9 @@
 
 Dockerization of PHP MySQLdump library [ifsnop/mysqldump-php](https://github.com/ifsnop/mysqldump-php).
 
-## Docker Image URL
+## Repository URL
 
+[Github.com](https://github.com/a-h-abid/docker-php-mysqldump)
 [Docker Hub](https://hub.docker.com/r/ahabid/php-mysqldump)
 
 ## Usage
